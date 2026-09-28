@@ -33,3 +33,5 @@
 /.vs
 /.vscode
 
+/.devenv
+/make/pkgs/mosquitto/files/root/etc/default.mosquitto/passwd
