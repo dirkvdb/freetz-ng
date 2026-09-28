@@ -8,7 +8,7 @@
 # any tracked files which get ignored after the change.
 #
 
-/.config*
+/.config.*
 /.fakeroot-cache
 /.freetz-ccache
 /.freetz-dl
