@@ -1,0 +1,8 @@
+config FREETZ_PACKAGE_TAILSCALE
+	bool "Tailscale 1.102.4 (static i386 binaries)"
+	depends on FREETZ_TARGET_ARCH_X86
+	default n
+	help
+		Installs the official static Tailscale and tailscaled binaries.
+		Enable the service with /etc/init.d/rc.tailscale and authenticate
+		using `tailscale up` after boot.

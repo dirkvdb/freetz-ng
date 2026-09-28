@@ -1,0 +1,41 @@
+#!/bin/sh
+
+DAEMON=tailscaled
+PIDFILE=/var/run/tailscaled.pid
+SOCKET=/var/run/tailscale/tailscaled.sock
+STATE=/tmp/flash/tailscale/tailscaled.state
+
+case "${1:-start}" in
+start)
+	if [ -e "$PIDFILE" ] && kill -0 "$(cat "$PIDFILE" 2>/dev/null)" 2>/dev/null; then
+		echo "$DAEMON already running"
+		exit 0
+	fi
+	mkdir -p /var/run/tailscale /tmp/flash/tailscale
+	TS_DEBUG_NETSTACK_SUBNETS=true /usr/sbin/tailscaled --state="$STATE" --socket="$SOCKET" \
+		>/var/log/tailscaled.log 2>&1 &
+	echo $! > "$PIDFILE"
+	;;
+stop)
+	if [ -e "$PIDFILE" ]; then
+		kill "$(cat "$PIDFILE" 2>/dev/null)" 2>/dev/null || true
+		rm -f "$PIDFILE"
+	fi
+	;;
+restart)
+	"$0" stop
+	"$0" start
+	;;
+status)
+	if [ -e "$PIDFILE" ] && kill -0 "$(cat "$PIDFILE" 2>/dev/null)" 2>/dev/null; then
+		echo "$DAEMON is running"
+		exit 0
+	fi
+	echo "$DAEMON is stopped"
+	exit 1
+	;;
+*)
+	echo "Usage: $0 {start|stop|restart|status}" >&2
+	exit 1
+	;;
+esac
