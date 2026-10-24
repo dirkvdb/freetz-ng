@@ -1,6 +1,6 @@
-$(call TOOLS_INIT, 2026-09-21)
+$(call TOOLS_INIT, 2026-10-20)
 $(PKG)_SOURCE:=tools-$($(PKG)_VERSION).tar.lzma
-$(PKG)_HASH:=79ade96187c5289e692f75d764aaf0a90c0ac43c432944f06621bf6bee0af8d1
+$(PKG)_HASH:=b33b3ffeccfee91ff39807525ca98dcd05c355e2fb0ad9c9cb56a03e63c3597e
 $(PKG)_SITE:=@DLTOKEN/https://api.github.com/repos/Freetz-NG/internal/releases/tags/host-tools
 ### STEWARD:=fda77
 

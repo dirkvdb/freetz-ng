@@ -8,7 +8,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[ACME.sh 3.1.6](../../docs/make/acme.md)<a id='acme'></a>**<br>
     A pure Unix shell script implementing ACME client protocol.
 
-  * **[Apache2 2.4.68 (binary only)](../../docs/make/apache2.md)<a id='apache2'></a>**<br>
+  * **[Apache2 2.4.69 (binary only)](../../docs/make/apache2.md)<a id='apache2'></a>**<br>
     The Apache httpd server
      - [apache.conf](../../docs/make/apache2.md#apacheconf)
      - [Passwortschutz mit .htaccess](../../docs/make/apache2.md#passwortschutz-mit-htaccess)
@@ -55,7 +55,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
     Bash is an sh-compatible command language interpreter that executes commands read from the standard input or from a file. Bash also incorporates useful features from the Korn and C shells (ksh and csh).(roundabout 540K minimal and 840K full featured)
      - [Bash als Loginshell](../../docs/make/bash.md#bash-als-loginshell)
 
-  * **[Bftpd 6.6](../../docs/make/bftpd.md)<a id='bftpd'></a>**<br>
+  * **[Bftpd 6.7](../../docs/make/bftpd.md)<a id='bftpd'></a>**<br>
     Small FTP Server
      - [Zusätzliche Benutzer einrichten](../../docs/make/bftpd.md#zusätzliche-benutzer-einrichten)
      - [Bestehende (persistente) Benutzer modifizieren](../../docs/make/bftpd.md#bestehende-persistente-benutzer-modifizieren)
@@ -63,7 +63,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **<u>bfusb: AVM BlueFRITZ! USB stick support (binary only)</u><a id='bfusb'></a>**<br>
     This package adds support for the AVM BlueFRITZ! USB stick.
 
-  * **[BIND 9.11.37/9.20.29](../../docs/make/bind.md)<a id='bind'></a>**<br>
+  * **[BIND 9.11.37/9.20.30](../../docs/make/bind.md)<a id='bind'></a>**<br>
     BIND is a suite of software for interacting with the Domain Name System (DNS). The name BIND stands for "Berkeley Internet Name Daemon".
      - [named.conf](../../docs/make/bind.md#namedconf)
 
@@ -93,8 +93,8 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
      - [Obtain IP configuration via DHCP](../../docs/make/br2684ctl.md#obtain-ip-configuration-via-dhcp)
      - [Debuging the DHCP process](../../docs/make/br2684ctl.md#debuging-the-dhcp-process)
 
-  * **[bridge-utils 1.4 (binary only) - DEPRECATED](../../docs/make/bridge-utils.md)<a id='bridge-utils'></a>**<br>
-    This package contains utilities for configuring the Linux ethernet bridge. The Linux ethernet bridge can be used for connecting multiple ethernet devices together. The connection is fully transparent: hosts connected to one ethernet device see hosts connected to the other ethernet devices directly. Authors: Lennert Buytenhek <buytenh@gnu.org>
+  * **[bridge-utils 1.7.1 (binary only)](../../docs/make/bridge-utils.md)<a id='bridge-utils'></a>**<br>
+    This package contains utilities for configuring the Linux ethernet bridge. The Linux ethernet bridge can be used for connecting multiple ethernet devices together. The connection is fully transparent: hosts connected to one ethernet device see hosts connected to the other ethernet devices directly.
 
   * **[bvi 1.5.0 (binary only)](../../docs/make/bvi.md)<a id='bvi'></a>**<br>
     A hex editor/viewer for binary files
@@ -104,7 +104,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
 
 ### C
 
-  * **[CA-bundle 2026-09-25](../../docs/make/ca-bundle.md)<a id='ca-bundle'></a>**<br>
+  * **[CA-bundle 2026-10-20](../../docs/make/ca-bundle.md)<a id='ca-bundle'></a>**<br>
     The Mozilla CA certificate store in PEM format, see https://www.curl.se/docs/caextract.html Size of uncompressed file is about 250 KB.
 
   * **[Callmonitor 1.20.9-git](../../docs/make/callmonitor.md)<a id='callmonitor'></a>**<br>
@@ -151,7 +151,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[Ctorrent dnh3.3.2 (binary only) - DEPRECATED](../../docs/make/ctorrent.md)<a id='ctorrent'></a>**<br>
     CTorrent is a BitTorrent client written in the C programming language, known to be a very robust and mature programming language, which produces fast and optimized application.
 
-  * **[Curl 8.12.1/8.22.0 (binary only)](../../docs/make/curl.md)<a id='curl'></a>**<br>
+  * **[Curl 8.12.1/8.23.0 (binary only)](../../docs/make/curl.md)<a id='curl'></a>**<br>
     Curl is a command line tool for transferring files with URL syntax, supporting FTP, FTPS, HTTP, HTTPS, GOPHER, TELNET, DICT, FILE and LDAP. Curl supports HTTPS certificates, HTTP POST, HTTP PUT, FTP uploading, kerberos, HTTP form based upload, proxies, cookies, user+password authentication, file transfer resume, http proxy tunneling and a busload of other useful tricks.
 
   * **<u>CurlFtpFS 0.9.2 - DEPRECATED</u><a id='curlftpfs'></a>**<br>
@@ -269,10 +269,10 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
     E-MailRelay is a simple store-and-forward message transfer agent and proxy server. It runs on Unix-like operating systems (including Linux), and on Windows. When used as proxy server the E-MailRelay program (emailrelay) runs in the background and accepts e-mail from local e-mail client programs (KMail, Outlook etc.) or from the outside world, using the SMTP protocol. As soon as an e-mail message is received it is forwarded on to the next SMTP server for onward delivery. This becomes more useful when you add in your own message processing: as each message is received it can be passed one of your programs for editing, filtering, encrypting etc. When used as a store-and-forward transfer agent E-Mail- Relay runs in two modes: the storage daemon part, and the forwarding agent. The storage daemon waits for incoming mail and stores anything it receives in a spool directory. As a forwarding agent E-MailRelay pulls messages out of the	spool directory and passes them on to a remote server -- perhaps your ISP mail server. E-MailRelay can also run as a POP3 server so that e-mail client programs can read the spooled messages.
      - [Hilfe für die Konfiguration](../../docs/make/emailrelay.md#hilfe-für-die-konfiguration)
 
-  * **[Empty 0.6.15b (binary only) - DEPRECATED](../../docs/make/empty.md)<a id='empty'></a>**<br>
+  * **[Empty 0.6.23d (binary only) - DEPRECATED](../../docs/make/empty.md)<a id='empty'></a>**<br>
     empty is an utility that provides an interface to execute and/or interact with processes under pseudo-terminal sessions (PTYs). This tool is definitely useful in programming of shell scripts designed to communicate with interactive programs like telnet, ssh, ftp, etc. In some cases, empty can be the simplest replacement for TCL/expect or other similar programming tools.
 
-  * **[endlessh 1.0](../../docs/make/endlessh.md)<a id='endlessh'></a>**<br>
+  * **[endlessh 1.1](../../docs/make/endlessh.md)<a id='endlessh'></a>**<br>
     Endlessh is an SSH tarpit that very slowly sends an endless, random SSH banner. It keeps SSH clients locked up for hours or even days at a time. The purpose is to put your real SSH server on another port and then let the script kiddies get stuck in this tarpit instead of bothering a real server.
 
   * **[eSpeak 1.48.04 (binary only) - DEPRECATED](../../docs/make/espeak.md)<a id='espeak'></a>**<br>
@@ -283,7 +283,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
 
 ### F
 
-  * **[FFmpeg 5.1.4/7.1.1](../../docs/make/ffmpeg.md)<a id='ffmpeg'></a>**<br>
+  * **[FFmpeg 5.1.10/7.1.5](../../docs/make/ffmpeg.md)<a id='ffmpeg'></a>**<br>
     FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video.
 
   * **[Fontconfig 2.17.1/2.18.3 (binary only)](../../docs/make/fontconfig.md)<a id='fontconfig'></a>**<br>
@@ -314,7 +314,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **<u>Ghostscript fonts 8.11 (binary only) - DEPRECATED</u><a id='ghostscript-fonts'></a>**<br>
     This package provides the Ghostscript fonts.
 
-  * **[Git 2.26.2/2.55.0](../../docs/make/git.md)<a id='git'></a>**<br>
+  * **[Git 2.26.2/2.56.0](../../docs/make/git.md)<a id='git'></a>**<br>
     Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals.
 
   * **<u>gntpsend 0.3.2-git (binary only) - DEPRECATED</u><a id='gntpsend'></a>**<br>
@@ -323,7 +323,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **<u>gnu-make: Make 4.2.1/4.4.1 (binary only)</u><a id='gnu-make'></a>**<br>
     Make is a tool which controls the generation of executables and other non-source files of a program from the program's source files.
 
-  * **[GnuTLS 3.7.8 (binary only) - DEPRECATED](../../docs/make/gnutls.md)<a id='gnutls'></a>**<br>
+  * **[GnuTLS 3.7.11/3.8.13 (binary only)](../../docs/make/gnutls.md)<a id='gnutls'></a>**<br>
     GnuTLS is a project that aims to develop a library which provides a secure layer, over a reliable transport layer. Currently the GnuTLS library implements TLS 1.3, 1.2, 1.1, 1.0 protocols and SSL 3.0.
 
   * **<u>gocr 0.49 (binary only) - DEPRECATED</u><a id='gocr'></a>**<br>
@@ -383,7 +383,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[IGMPproxy 0.4](../../docs/make/igmpproxy.md)<a id='igmpproxy'></a>**<br>
     IGMPproxy is a simple dynamic Multicast Routing Daemon using only IGMP signalling. It's intended for simple forwarding of Multicast traffic between networks.
 
-  * **[ImageMagick 7.1.0-62/7.1.2-31 (binary only)](../../docs/make/imagemagick.md)<a id='imagemagick'></a>**<br>
+  * **[ImageMagick 7.1.0-62/7.1.2-34 (binary only)](../../docs/make/imagemagick.md)<a id='imagemagick'></a>**<br>
     ImageMagick is a robust collection of tools and libraries to read, write, and manipulate an image in many image formats, including popular formats like TIFF, JPEG, PNG, PDF, PhotoCD, and GIF. With ImageMagick, you can create images dynamically, making it suitable for Web applications. You can also resize, rotate, sharpen, color-reduce, or add special effects to an image and save your completed work in many different image formats. Image processing operations are available from the command line as well as through C, C++, and PERL-based programming interfaces.
 
   * **[Inadyn-mt 02.28.10 - DEPRECATED](../../docs/make/inadyn-mt.md)<a id='inadyn-mt'></a>**<br>
@@ -409,7 +409,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
      - [Security](../../docs/make/iodine.md#security)
      - [Forwarding](../../docs/make/iodine.md#forwarding)
 
-  * **[iPerf3 3.3/3.21 (binary only)](../../docs/make/iperf.md)<a id='iperf'></a>**<br>
+  * **[iPerf3 3.3/3.22 (binary only)](../../docs/make/iperf.md)<a id='iperf'></a>**<br>
     iPerf3 is a tool for active measurements of the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, buffers and protocols (TCP, UDP, SCTP with IPv4 and IPv6). For each test it reports the bandwidth, loss, and other parameters. S. https://github.com/esnet/iperf for more details.
 
   * **<u>IPsec-tools 0.7.2 - DEPRECATED</u><a id='ipsec-tools'></a>**<br>
@@ -464,7 +464,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
      - [Geoblocking](../../docs/make/lighttpd.md#geoblocking)
      - [Links](../../docs/make/lighttpd.md#links)
 
-  * **[Lua 5.1.5/5.4.9 (binary only)](../../docs/make/lua.md)<a id='lua'></a>**<br>
+  * **[Lua 5.1.5/5.5.1 (binary only)](../../docs/make/lua.md)<a id='lua'></a>**<br>
     Lua Scripting Language. Lua is a powerful, efficient, lightweight, embeddable scripting language. It supports procedural programming, object-oriented programming, functional programming, data-driven programming, and data description. Lua combines simple procedural syntax with powerful data description constructs based on associative arrays and extensible semantics. Lua is dynamically typed, runs by interpreting bytecode with a register-based virtual machine, and has automatic memory management with incremental garbage collection, making it ideal for configuration, scripting, and rapid prototyping.
 
   * **[Lynx 2.9.3 (binary only)](../../docs/make/lynx.md)<a id='lynx'></a>**<br>
@@ -622,13 +622,13 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
      - [Fehlerbehebung](../../docs/make/openntpd.md#fehlerbehebung)
      - [Alternative](../../docs/make/openntpd.md#alternative)
 
-  * **[OpenSSH 9.3p2/10.5p1](../../docs/make/openssh.md)<a id='openssh'></a>**<br>
+  * **[OpenSSH 9.3p2/10.6p1](../../docs/make/openssh.md)<a id='openssh'></a>**<br>
     OpenSSH is the premier connectivity tool for remote login with the SSH protocol. It encrypts all traffic to eliminate eavesdropping, connection hijacking, and other attacks. In addition, OpenSSH provides a large suite of secure tunneling capabilities, several authentication methods, and sophisticated configuration options.
 
-  * **[OpenSSL 0.9.8zh/1.0.2u/1.1.1w/3.0.22/3.5.8 (binary only)](../../docs/make/openssl.md)<a id='openssl'></a>**<br>
+  * **[OpenSSL 0.9.8zh/1.0.2u/1.1.1w/3.0.22/3.5.9 (binary only)](../../docs/make/openssl.md)<a id='openssl'></a>**<br>
     This package contains the OpenSSL command-line utility.
 
-  * **[OpenVPN 2.4.12/2.5.11/2.6.23/2.7.7](../../docs/make/openvpn.md)<a id='openvpn'></a>**<br>
+  * **[OpenVPN 2.4.12/2.5.11/2.6.23/2.7.8](../../docs/make/openvpn.md)<a id='openvpn'></a>**<br>
     VPN Server
      - [Häufige Fragen / Howto](../../docs/make/openvpn.md#häufige-fragen--howto)
      - [Konfigurationsanleitung](../../docs/make/openvpn.md#konfigurationsanleitung)
@@ -657,7 +657,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **<u>phonebook-tools: Phone book tools 1.0</u><a id='phonebook-tools'></a>**<br>
     A set of tools for reading and converting Fritz!Box phone book to such (easy parseable) formats like: - .csv (comma-separated values), or - .tsv (tab-separated values).
 
-  * **[PHP 5.6.40/8.2.33/8.3.35/8.4.26/8.5.11 (binary only)](../../docs/make/php.md)<a id='php'></a>**<br>
+  * **[PHP 5.6.40/8.2.35/8.3.36/8.4.27/8.5.12 (binary only)](../../docs/make/php.md)<a id='php'></a>**<br>
     PHP: Hypertext Preprocessor PHP is a widely-used general-purpose scripting language that is especially suited for Web development and can be embedded into HTML. Much of its syntax is borrowed from C, Java and Perl with a couple of unique PHP-specific features thrown in. The goal of the language is to allow web developers to write dynamically generated pages quickly.
      - [Memory usage](../../docs/make/php.md#memory-usage)
 
@@ -708,7 +708,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
      - [Installation](../../docs/make/privoxy.md#installation)
      - [Diskussion](../../docs/make/privoxy.md#diskussion)
 
-  * **[procps-ng 4.0.6 (binaries only)](../../docs/make/procps-ng.md)<a id='procps-ng'></a>**<br>
+  * **[procps-ng 4.0.7 (binaries only)](../../docs/make/procps-ng.md)<a id='procps-ng'></a>**<br>
     procps-ng - /proc filesystem utilities This package provides the full versions of procps utilities with the suffix "-ng" to avoid conflicts with BusyBox versions.
      - [Process Information](../../docs/make/procps-ng.md#process-information)
      - [Memory and System Information](../../docs/make/procps-ng.md#memory-and-system-information)
@@ -734,7 +734,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[Python 2.7.18 - DEPRECATED](../../docs/make/python.md)<a id='python'></a>**<br>
     Python is a remarkably powerful dynamic programming language that is used in a wide variety of application domains. CAUTION: Python adds roughly 4 MB to 15.5 MB (depending on your choice of modules) of uncompressed data to your image. In most cases, it should therefore be externalized.
 
-  * **[python3: Python 3.14.3 - EXPERIMENTAL](../../docs/make/python3.md)<a id='python3'></a>**<br>
+  * **[python3: Python 3.14.8 - EXPERIMENTAL](../../docs/make/python3.md)<a id='python3'></a>**<br>
     Python is a remarkably powerful dynamic programming language that is used in a wide variety of application domains. CAUTION: Python adds roughly 4 MB to 15.5 MB (depending on your choice of modules) of uncompressed data to your image. In most cases, it should therefore be externalized.
 
   * **<u>python-bjoern: bjoern 1.3.4 - DEPRECATED</u><a id='python-bjoern'></a>**<br>
@@ -796,7 +796,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **<u>ripmime 1.2.16.21 (binary only) - DEPRECATED</u><a id='ripmime'></a>**<br>
     ripmime is an utility to decode and extract the parts of mime-formatted mails.
 
-  * **[RPCBind 1.2.7 (binary only)](../../docs/make/rpcbind.md)<a id='rpcbind'></a>**<br>
+  * **[RPCBind 1.3.1 (binary only)](../../docs/make/rpcbind.md)<a id='rpcbind'></a>**<br>
     The rpcbind utility is a server that converts RPC program numbers into universal addresses.
 
   * **[RRDtool 1.2.30/1.11.0 (binary only)](../../docs/make/rrdtool.md)<a id='rrdtool'></a>**<br>
@@ -833,8 +833,8 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
      - [einhängen/attach](../../docs/make/screen.md#einhängenattach)
      - [PuTTY-Tip: Änderung der Fensterbreite beim Screen-Start verhindern](../../docs/make/screen.md#putty-tip-änderung-der-fensterbreite-beim-screen-start-verhindern)
 
-  * **[ser2net 3.5.4 - DEPRECATED](../../docs/make/ser2net.md)<a id='ser2net'></a>**<br>
-    Ser2net is a program for allowing network connections to serial ports. It supports RFC 2217 (remote control of serial port parameters), but you must have a complient client.
+  * **[ser2net 3.5.4/4.6.8](../../docs/make/ser2net.md)<a id='ser2net'></a>**<br>
+    Serial to network interface, allows TCP/UDP to serial port connections. Configuration format differs by version (see help).
 
   * **[SFK 2.0.0.3](../../docs/make/sfk.md)<a id='sfk'></a>**<br>
     Swiss File Knife - A Command Line Tools Collection This packages provides the freeware version of SFK, see http://stahlworks.com/dev/swiss-file-knife.html for further information
@@ -849,7 +849,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[siproxd 0.8.1 - DEPRECATED](../../docs/make/siproxd.md)<a id='siproxd'></a>**<br>
     Siproxd is a proxy/masquerading daemon for the SIP protocol. See http://siproxd.sourceforge.net for more information.
 
-  * **[sispmctl 3.1 - DEPRECATED](../../docs/make/sispmctl.md)<a id='sispmctl'></a>**<br>
+  * **[sispmctl 4.12 - DEPRECATED](../../docs/make/sispmctl.md)<a id='sispmctl'></a>**<br>
     sispmctl is an application enabling the use of the GEMBIRD SiS-PM (sispm) USB-controlled power-outlet device under Linux. Note that the device is also sold under different names, i.e. as "IntelliPlug" in Germany.
      - [Einschränkung](../../docs/make/sispmctl.md#einschränkung)
      - [Benutzung](../../docs/make/sispmctl.md#benutzung)
@@ -911,7 +911,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
      - [Konfiguration](../../docs/make/stunnel.md#konfiguration)
      - [Erweitert](../../docs/make/stunnel.md#erweitert)
 
-  * **[Subversion 1.9.12/1.14.5](../../docs/make/subversion.md)<a id='subversion'></a>**<br>
+  * **[Subversion 1.9.12/1.15.0](../../docs/make/subversion.md)<a id='subversion'></a>**<br>
     Subversion, also known as svn, is a version control system much like the Concurrent Versions System (CVS). Version control systems allow many individuals (who may be distributed geographically) to collaborate on a set of files (typically source code). Subversion has all the major features of CVS, plus certain new features that CVS users often wish they had.
      - [Enthaltene Programmteile](../../docs/make/subversion.md#enthaltene-programmteile)
      - [WebIF](../../docs/make/subversion.md#webif)
@@ -938,7 +938,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
 
 ### T
 
-  * **[tcpdump 4.1.1/4.99.6 (binary only)](../../docs/make/tcpdump.md)<a id='tcpdump'></a>**<br>
+  * **[tcpdump 4.1.1/4.99.7 (binary only)](../../docs/make/tcpdump.md)<a id='tcpdump'></a>**<br>
     Network monitoring and data acquisition tool
      - [Warning](../../docs/make/tcpdump.md#warning)
 
@@ -967,10 +967,10 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
      - [URL blocking](../../docs/make/tinyproxy.md#url-blocking)
      - [Memory usage](../../docs/make/tinyproxy.md#memory-usage)
 
-  * **[tmux 3.7c (binary only)](../../docs/make/tmux.md)<a id='tmux'></a>**<br>
+  * **[tmux 3.8 (binary only)](../../docs/make/tmux.md)<a id='tmux'></a>**<br>
     tmux, a BSD-licensed alternative to GNU screen. Uses ncurses.
 
-  * **[Tor 0.4.8.25/0.4.9.13](../../docs/make/tor.md)<a id='tor'></a>**<br>
+  * **[Tor 0.4.8.25/0.4.9.14](../../docs/make/tor.md)<a id='tor'></a>**<br>
     The Onion Router Anonymous Internet communication system.
      - [Tor als Proxy benutzen](../../docs/make/tor.md#tor-als-proxy-benutzen)
      - [Tor und Privoxy](../../docs/make/tor.md#tor-und-privoxy)
@@ -1007,7 +1007,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[uMurmur 0.2.20/0.5.1](../../docs/make/umurmur.md)<a id='umurmur'></a>**<br>
     umurmur is a minimalistic Mumble server primarily targeted to run on routers using less resources. It targets to fill the needs of a pretty small group of users communicating, which in part originates from the other goal of working well on a small system with a limited CPU and limited amount of disk space. It also aims to minimize writing to the disk since these kinds of systems usually only has a flash memory for disk. umurmur supports a subset of the features of Murmur. https://github.com/umurmur/umurmur
 
-  * **[Unbound 1.26.1](../../docs/make/unbound.md)<a id='unbound'></a>**<br>
+  * **[Unbound 1.26.2](../../docs/make/unbound.md)<a id='unbound'></a>**<br>
     Unbound is designed as a set of modular components, so that also DNSSEC (secure DNS) validation and stub-resolvers (that do not run as a server, but are linked into an application) are easily possible.
 
   * **[UNFS3 0.9.23 - DEPRECATED](../../docs/make/unfs3.md)<a id='unfs3'></a>**<br>
@@ -1027,7 +1027,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
 
 ### V
 
-  * **[Vim 9.2.0000 (binary only)](../../docs/make/vim.md)<a id='vim'></a>**<br>
+  * **[Vim 9.2.1169 (binary only)](../../docs/make/vim.md)<a id='vim'></a>**<br>
     An improved version of VI
 
   * **[Virtualip-NG - EXPERIMENTAL](../../docs/make/virtualip-ng.md)<a id='virtualip-ng'></a>**<br>
@@ -1151,13 +1151,13 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
      - [Sicherheitshinweis](../../docs/make/nano-shell.md#sicherheitshinweis)
      - [Benutzung](../../docs/make/nano-shell.md#benutzung)
 
-  * **[PatchELF 0.19.1 (binary only)](../../docs/make/patchelf.md)<a id='patchelf'></a>**<br>
+  * **[PatchELF 0.19.2 (binary only)](../../docs/make/patchelf.md)<a id='patchelf'></a>**<br>
     Modifies existing ELF executables and libraries. Can change the interpreter, RPATH, and other ELF metadata.
 
   * **[pciutils 3.1.7 (binary only) - DEPRECATED](../../docs/make/pciutils.md)<a id='pciutils'></a>**<br>
     The PCI Utilities are a collection of programs for inspecting and manipulating configuration of PCI devices, all based on a common portable library libpci which offers access to the PCI configuration space on a variety of operating systems. lspci displays detailed information about all PCI buses and devices in the system. setpci allows reading from and writing to PCI device configuration registers. For example, you can adjust the latency timers with it.
 
-  * **[strace 4.9/5.0/7.2 (binary only)](../../docs/make/strace.md)<a id='strace'></a>**<br>
+  * **[strace 4.9/5.0/7.3 (binary only)](../../docs/make/strace.md)<a id='strace'></a>**<br>
     strace - trace system calls and signals strace is a system call tracer, i.e. a debugging tool which prints out a trace of all the system calls made by another process/program.
      - [Tip: Vermeiden von "unfinished" und "resumed" in strace-Logs](../../docs/make/strace.md#tip-vermeiden-von-unfinished-und-resumed-in-strace-logs)
 
@@ -1175,7 +1175,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **<u>Asterisk 11.25.3 - DEPRECATED</u><a id='asterisk'></a>**<br>
     Asterisk is an open source framework for building communications applications.
 
-  * **<u>axtlswrap: axTLS wrapper 2.1.3 (binary only) - DEPRECATED</u><a id='axtlswrap'></a>**<br>
+  * **[axtlswrap: axTLS wrapper 2.1.5 (binary only) - DEPRECATED](../../docs/make/axtlswrap.md)<a id='axtlswrap'></a>**<br>
 
   * **[Collectd 4.10.3 - DEPRECATED](../../docs/make/collectd.md)<a id='collectd'></a>**<br>
     Collectd collects information about the system it is running on and stores this information. The information can then be used to do find current performance bottlenecks (i. e. performance analysis) and predict future system load (i. e. capacity planning). Or if you just want pretty graphs of your private server and are fed up with some homegrown solution you're at the right place, too.
