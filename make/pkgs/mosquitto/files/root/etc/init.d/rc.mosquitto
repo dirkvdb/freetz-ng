@@ -8,6 +8,16 @@ PID_FILE=/var/run/$DAEMON/$DAEMON.pid
 . /etc/init.d/modlibrc
 
 config() {
+	if [ "$MOSQUITTO_ALLOW_ANONYMOUS" != "yes" ]; then
+		# The firmware password file is root-only; the broker reads it as nobody.
+		(
+			umask 077
+			cp /etc/default.mosquitto/passwd "$MODPATH/$DAEMON.passwd.tmp" &&
+			chmod 600 "$MODPATH/$DAEMON.passwd.tmp" &&
+			chown nobody:nobody "$MODPATH/$DAEMON.passwd.tmp" &&
+			mv -f "$MODPATH/$DAEMON.passwd.tmp" "$MODPATH/$DAEMON.passwd"
+		) || exit 1
+	fi
 	modlib_config
 }
 

@@ -12,7 +12,7 @@ if [ "$MOSQUITTO_ALLOW_ANONYMOUS" = "yes" ]; then
 	echo "allow_anonymous true"
 else
 	echo "allow_anonymous false"
-	echo "password_file /etc/default.mosquitto/passwd"
+	echo "password_file /mod/etc/mosquitto.passwd"
 fi
 
 if [ -n "$MOSQUITTO_PERSISTENCE_PATH" ]; then
